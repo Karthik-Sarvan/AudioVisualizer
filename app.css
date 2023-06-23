@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    background-color: green;
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+}
+.d{
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+}
+.audio-bar, .audio1 {
+
+  width: 5px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  margin-top: 50%;
+  background-color: white;
+  margin-left: 5px;
+  border: none;
+
+}
+.audio{
+    width: 5px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  margin-top: 50%;
+  background-color: white;
+  border: none;
+}
+
+.reflection{
+    -webkit-box-reflect: below -1px;
+    transform: rotateX(180deg);
+
+}
+.left{
+    -webkit-box-reflect: left;
+}
