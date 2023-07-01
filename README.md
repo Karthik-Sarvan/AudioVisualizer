@@ -11,6 +11,7 @@ Easy to integrate into your web projects
 To use the audio visualizer in your project, follow these steps:
 
 # Clone the repository:
+https://github.com/Karthik0055/AudioVisualizer.git
 
 # Include the necessary CSS and JavaScript files in your HTML:
 
