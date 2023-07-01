@@ -11,20 +11,28 @@ Easy to integrate into your web projects
 To use the audio visualizer in your project, follow these steps:
 
 # Clone the repository:
-https://github.com/Karthik0055/AudioVisualizer.git
+git clone https://github.com/Karthik0055/AudioVisualizer.git
 
 # Include the necessary CSS and JavaScript files in your HTML:
 
-
-<link rel="stylesheet" href="path/to/visualizer.css">
-<script src="path/to/visualizer.js"></script>
+<link rel="stylesheet" href="app.css">
+<script src="AudioVisualizer.js"></script>
 
 
 # Customization
 You can customize the visualizer by passing an options object to the AudioVisualizer constructor. Here are some available options:
 
-color: The color of the visualizer bars (default: '')
-backgroundColor: The background color of the visualizer (default: '#000000')
-barWidth: The width of each bar in pixels (default: 3)
-barSpacing: The spacing between each bar in pixels (default: 2)
-barHeightMultiplier: The multiplier for the height of each bar (default: 1)
+# Color: 
+The color of the visualizer bars (default: 'white').
+
+# Audio quality
+analyser.fftSize = 2048.
+
+# backgroundColor: 
+The background color of the visualizer (default: 'rgb(25, 25, 25)').
+
+# barSpacing: 
+The spacing between each bar in pixels (default: 2px).
+
+# scaleFactor: 
+The default scaleFactor of each bar is 2.
