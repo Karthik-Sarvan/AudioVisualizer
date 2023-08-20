@@ -7,6 +7,12 @@ Responsive design
 Customizable visualizer settings
 Easy to integrate into your web projects
 
+
+https://github.com/Karthik0055/AudioVisualizer/assets/110559433/35f9321f-9cdb-4bc3-b3b0-ff185a37bbc0
+
+
+
+
 # Getting Started
 To use the audio visualizer in your project, follow these steps:
 
